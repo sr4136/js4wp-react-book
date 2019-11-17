@@ -43,9 +43,9 @@ class Practice3 extends React.Component {
         <UserForm
           id="firstName"
           label="First Name"
-          onChange={this.handleFirst}
+          onChange="{this.handleFirst}"
         />
-        <UserForm id="lastName" label="Last Name" onChange={this.handleLast} />
+        <UserForm id="lastName" label="Last Name" onChange="{this.handleLast}" />
       </>
     );
   }
